@@ -10,3 +10,9 @@ Sync from a remote git repo every so often.
 | `GIT_REPO`   |                  |
 | `GIT_BRANCH` | `master`         |
 | `DELAY`      | `1m`             |
+
+## Usage
+
+```
+docker run -e GIT_REPO=https://github.com/errm/cheese errm/git-sync
+```
