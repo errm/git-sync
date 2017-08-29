@@ -1,4 +1,4 @@
-#!/bin/sh -xe
+#!/bin/sh -e
 
 if [ ! -d $TARGET_DIR ]; then
     mkdir -p $TARGET_DIR
